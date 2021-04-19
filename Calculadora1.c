@@ -5,7 +5,7 @@
 float R, A, B;
 
 int rotinaadicao(void);
-int rotinasubtracao(float);
+int rotinasubtracao(void);
 int rotinamultiplicacao(void);
 int rotinadivisao(void);
 
@@ -30,7 +30,7 @@ int main()
             if(OPCAO == 1)
                 rotinaadicao();
             if(OPCAO == 2)
-                rotinasubtracao()
+                rotinasubtracao();
             if(OPCAO == 3)
                 rotinamultiplicacao();
             if(OPCAO == 4)
